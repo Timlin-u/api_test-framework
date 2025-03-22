@@ -1,0 +1,9 @@
+执行测试: {'baseInfo': {'api_name': '添加购物车接口', 'url': '/coupApply/cms/shoppingJoinCart', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '添加购物车测试', 'json': {'goods_id': '18382788819', 'count': 2, 'price': '128', 'timeStamp': 169232689}, 'validation': [{'code': 200}, {'contain': 'cartList'}]}]}
+📂 pytest 当前工作目录: D:\Daytwo
+读取配置文件路径: D:\Daytwo\unit_tools\configs\config.ini
+📄 读取的配置文件内容：
+ [Host]
+url = http://127.0.0.1:8787
+
+读取到的配置段落: ['Host']
+接口返回内容： {'cartList': [{'cid': 552, 'price': '99.00', 'productId': '18382788819', 'productImage': 'https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg', 'productName': '【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装', 'totalPrice': '239.00'}, {'cid': 873, 'price': '108.00', 'productId': '33809635011', 'productImage': 'https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg', 'productName': '好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装', 'totalPrice': '347.00'}, {'cid': 562, 'price': '17.80', 'productId': '56996760797', 'productImage': 'https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg', 'productName': '冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g', 'totalPrice': '364.80'}], 'createTime': '2025-03-20 23:17:30', 'error': '', 'error_code': '0000', 'message': 'success', 'translate_language': 'zh-CN', 'userId': '5407470960933747613'}

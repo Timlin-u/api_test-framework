@@ -1,0 +1,1 @@
+执行测试: {'baseInfo': {'api_name': '获取商品详情接口', 'url': '/coupApply/cms/productDetail', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '获取商品详情测试', 'json': {'pro_id': '33809635011', 'page': 1, 'size': 20}, 'validation': [{'code': 200}, {'contain': 'item'}]}]}

@@ -1,0 +1,2 @@
+执行测试: {'baseInfo': {'api_name': '校验商品物流状态接口', 'url': '/coupApply/cms/checkLogisticsStatus', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '校验商品物流状态测试', 'json': {'orderNumber': '208019542305257723473', 'timeStamp': 2}, 'validation': [{'code': 200}, {'contain': 'status'}]}]}
+接口返回内容： {'error': '订单编号不存在', 'error_code': '4000'}

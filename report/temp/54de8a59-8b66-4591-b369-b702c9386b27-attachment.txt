@@ -1,0 +1,3 @@
+执行测试: {'baseInfo': {'api_name': '校验商品订单状态接口', 'url': '/coupApply/cms/checkOrderStatus', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '校验商品订单状态测试', 'json': {'orderNumber': '208019542305257723473', 'timeStamp': 2}, 'validation': [{'code': 200}, {'contain': 'status'}]}]}
+读取配置文件路径: D:\Daytwo\unit_tools\configs\config.ini
+❌ 配置文件不存在！请检查路径: D:\Daytwo\unit_tools\configs\config.ini

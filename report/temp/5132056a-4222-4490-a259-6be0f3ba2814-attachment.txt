@@ -1,0 +1,9 @@
+[32mINFO    [0m TestLogger:SendRequests.py:28 接口名称：校验商品订单状态接口
+[32mINFO    [0m TestLogger:SendRequests.py:29 请求地址：http://127.0.0.1:8787/coupApply/cms/checkOrderStatus
+[32mINFO    [0m TestLogger:SendRequests.py:30 请求方式：POST
+[32mINFO    [0m TestLogger:SendRequests.py:31 测试用例名称：校验商品订单状态测试
+[32mINFO    [0m TestLogger:SendRequests.py:32 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+[32mINFO    [0m TestLogger:SendRequests.py:33 cookies：None
+[32mINFO    [0m TestLogger:SendRequests.py:21 Response Status: 200
+[32mINFO    [0m TestLogger:Assertions.py:7 状态码断言成功：200 == 200
+[31m[1mERROR   [0m TestLogger:Assertions.py:19 包含断言失败：'status' 不存在于响应中

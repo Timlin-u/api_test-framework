@@ -1,0 +1,9 @@
+执行测试: {'baseInfo': {'api_name': '校验商品订单状态接口', 'url': '/coupApply/cms/checkOrderStatus', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '校验商品订单状态测试', 'json': {'orderNumber': '208019542305257723473', 'timeStamp': 2}, 'validation': [{'code': 200}, {'contain': 'status'}]}]}
+📂 pytest 当前工作目录: D:\Daytwo
+读取配置文件路径: D:\Daytwo\unit_tools\configs\config.ini
+📄 读取的配置文件内容：
+ [Host]
+url = http://127.0.0.1:8787
+
+读取到的配置段落: ['Host']
+接口返回内容： {'error': '订单编号不存在', 'error_code': '4000'}

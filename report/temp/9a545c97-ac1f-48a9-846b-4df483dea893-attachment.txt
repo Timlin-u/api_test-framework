@@ -1,0 +1,7 @@
+2025-03-20 23:28:13,249 - INFO - 接口名称：删除购物车商品接口
+2025-03-20 23:28:13,249 - INFO - 请求地址：http://127.0.0.1:8787/coupApply/cms/delCart
+2025-03-20 23:28:13,250 - INFO - 请求方式：POST
+2025-03-20 23:28:13,250 - INFO - 测试用例名称：删除购物车商品测试
+2025-03-20 23:28:13,250 - INFO - 请求头：{'Content-Type': 'application/x-www-form-urlencoded'}
+2025-03-20 23:28:13,250 - INFO - cookies：None
+2025-03-20 23:28:13,252 - INFO - Response Status: 200

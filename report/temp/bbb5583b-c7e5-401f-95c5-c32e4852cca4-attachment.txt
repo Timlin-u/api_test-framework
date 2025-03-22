@@ -1,0 +1,7 @@
+2025-03-20 23:28:13,266 - INFO - 接口名称：校验商品库存接口
+2025-03-20 23:28:13,266 - INFO - 请求地址：http://127.0.0.1:8787/coupApply/cms/shoppingInventory
+2025-03-20 23:28:13,266 - INFO - 请求方式：POST
+2025-03-20 23:28:13,267 - INFO - 测试用例名称：校验商品库存测试
+2025-03-20 23:28:13,267 - INFO - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+2025-03-20 23:28:13,267 - INFO - cookies：None
+2025-03-20 23:28:13,269 - INFO - Response Status: 200

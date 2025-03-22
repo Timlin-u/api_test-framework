@@ -1,0 +1,3 @@
+执行测试: {'baseInfo': {'api_name': '添加购物车接口', 'url': '/coupApply/cms/shoppingJoinCart', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '添加购物车测试', 'json': {'goods_id': '18382788819', 'count': 2, 'price': '128', 'timeStamp': 169232689}, 'validation': [{'code': 200}, {'contain': 'cartList'}]}]}
+读取配置文件路径: D:\Daytwo\unit_tools\configs\config.ini
+❌ 配置文件不存在！请检查路径: D:\Daytwo\unit_tools\configs\config.ini

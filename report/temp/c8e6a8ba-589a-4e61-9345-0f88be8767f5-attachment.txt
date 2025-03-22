@@ -1,0 +1,2 @@
+执行测试: {'baseInfo': {'api_name': '订单支付接口', 'url': '/coupApply/cms/orderPay', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '订单支付测试', 'json': {'orderNumber': '103841668442551481209', 'userId': '7462654665439538777', 'timeStamp': 169232689}, 'validation': [{'code': 200}, {'contain': 'message'}]}]}
+接口返回内容： {'error': '订单编号或用户id不存在', 'error_code': '4000'}

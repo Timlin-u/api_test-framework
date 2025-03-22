@@ -1,0 +1,10 @@
+[32mINFO    [0m TestLogger:SendRequests.py:28 接口名称：校验商品库存接口
+[32mINFO    [0m TestLogger:SendRequests.py:29 请求地址：http://127.0.0.1:8787/coupApply/cms/shoppingInventory
+[32mINFO    [0m TestLogger:SendRequests.py:30 请求方式：POST
+[32mINFO    [0m TestLogger:SendRequests.py:31 测试用例名称：校验商品库存测试
+[32mINFO    [0m TestLogger:SendRequests.py:32 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+[32mINFO    [0m TestLogger:SendRequests.py:33 cookies：None
+[32mINFO    [0m TestLogger:SendRequests.py:21 Response Status: 200
+[32mINFO    [0m TestLogger:Assertions.py:7 状态码断言成功：200 == 200
+[32mINFO    [0m TestLogger:Assertions.py:16 包含断言成功：'status' 存在于响应中
+[32mINFO    [0m TestLogger:Assertions.py:35 所有断言成功

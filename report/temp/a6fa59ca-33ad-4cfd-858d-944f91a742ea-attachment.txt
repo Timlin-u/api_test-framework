@@ -1,0 +1,2 @@
+执行测试: {'baseInfo': {'api_name': '校验商品库存接口', 'url': '/coupApply/cms/shoppingInventory', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '校验商品库存测试', 'json': {'goodsId': '18382788819', 'count': 6, 'timeStamp': 2}, 'validation': [{'code': 200}, {'contain': 'status'}]}]}
+接口返回内容： {'createTime': '2025-03-20 22:13:25', 'error': '商品库存不足', 'error_code': '0000', 'status': '1', 'translate_language': 'zh-CN'}

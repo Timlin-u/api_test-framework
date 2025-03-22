@@ -1,0 +1,3 @@
+执行测试: {'baseInfo': {'api_name': '删除购物车商品接口', 'url': '/coupApply/cms/delCart', 'method': 'POST', 'headers': '{"Content-Type": "application/x-www-form-urlencoded"}'}, 'testCase': [{'case_name': '删除购物车商品测试', 'data': {'productId': '33809635011', 'timeStamp': 2}, 'validation': [{'code': 200}, {'contain': 'message'}]}]}
+读取配置文件路径: D:\Daytwo\unit_tools\handle_data\..\configs\config.ini
+读取到的配置段落: []

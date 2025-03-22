@@ -1,0 +1,7 @@
+INFO     TestLogger:SendRequests.py:28 接口名称：校验商品物流状态接口
+INFO     TestLogger:SendRequests.py:29 请求地址：http://127.0.0.1:8787/coupApply/cms/checkLogisticsStatus
+INFO     TestLogger:SendRequests.py:30 请求方式：POST
+INFO     TestLogger:SendRequests.py:31 测试用例名称：校验商品物流状态测试
+INFO     TestLogger:SendRequests.py:32 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO     TestLogger:SendRequests.py:33 cookies：None
+INFO     TestLogger:SendRequests.py:21 Response Status: 200

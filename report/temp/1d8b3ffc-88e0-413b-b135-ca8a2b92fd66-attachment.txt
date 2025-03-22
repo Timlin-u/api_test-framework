@@ -1,0 +1,9 @@
+执行测试: {'baseInfo': {'api_name': '提交订单接口', 'url': '/coupApply/cms/placeAnOrder', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '提交订单测试', 'json': {'goods_id': '18382788819', 'number': 2, 'propertyChildIds': '2:9', 'inviter_id': 127839112, 'price': '128', 'freight_insurance': '0.00', 'discount_code': '002399', 'consignee_info': {'name': '张三', 'phone': '13800000000', 'address': '北京市海淀区西三环北路 74 号院 4 栋 3 单元 1008'}}, 'validation': [{'code': 200}, {'contain': 'orderNumber'}]}]}
+📂 pytest 当前工作目录: D:\Daytwo
+读取配置文件路径: D:\Daytwo\unit_tools\configs\config.ini
+📄 读取的配置文件内容：
+ [Host]
+url = http://127.0.0.1:8787
+
+读取到的配置段落: ['Host']
+接口返回内容： {'crateTime': '2025-03-20 23:18:32', 'error': '', 'error_code': '0000', 'message': '提交订单成功', 'orderNumber': '259876008094674370196', 'translate_language': 'zh-CN', 'userId': '5407470960933747613'}

@@ -1,0 +1,1 @@
+执行测试: {'baseInfo': {'api_name': '登录接口', 'url': '/post', 'method': 'POST', 'headers': '{"Content-Type": "application/json"}'}, 'testCase': [{'case_name': '正常登录测试', 'data': '{"user_name": "test01", "password": "admin123"}', 'validation': [{'code': 200}, {'contain': 'json'}]}]}

@@ -1,0 +1,7 @@
+2025-03-20 23:27:49,124 - INFO - 接口名称：获取商品列表接口
+2025-03-20 23:27:49,125 - INFO - 请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+2025-03-20 23:27:49,125 - INFO - 请求方式：GET
+2025-03-20 23:27:49,125 - INFO - 测试用例名称：获取商品列表测试
+2025-03-20 23:27:49,125 - INFO - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+2025-03-20 23:27:49,125 - INFO - cookies：None
+2025-03-20 23:27:49,129 - INFO - Response Status: 200

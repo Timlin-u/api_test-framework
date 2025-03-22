@@ -1,0 +1,9 @@
+执行测试: {'baseInfo': {'api_name': '校验商品库存接口', 'url': '/coupApply/cms/shoppingInventory', 'method': 'POST', 'headers': '{"Content-Type": "application/json;charset=UTF-8"}'}, 'testCase': [{'case_name': '校验商品库存测试', 'json': {'goodsId': '18382788819', 'count': 6, 'timeStamp': 2}, 'validation': [{'code': 200}, {'contain': 'status'}]}]}
+📂 pytest 当前工作目录: D:\Daytwo
+读取配置文件路径: D:\Daytwo\unit_tools\configs\config.ini
+📄 读取的配置文件内容：
+ [Host]
+url = http://127.0.0.1:8787
+
+读取到的配置段落: ['Host']
+接口返回内容： {'createTime': '2025-03-20 23:17:30', 'error': '商品库存不足', 'error_code': '0000', 'status': '1', 'translate_language': 'zh-CN'}

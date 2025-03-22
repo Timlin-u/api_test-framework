@@ -1,0 +1,1 @@
+执行测试: {'baseInfo': {'api_name': '获取商品列表接口', 'url': '/coupApply/cms/goodsList', 'method': 'GET', 'headers': '{"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"}'}, 'testCase': [{'case_name': '获取商品列表测试', 'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}, 'validation': [{'code': 200}, {'contain': 'goodList'}]}]}
